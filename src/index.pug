@@ -4,6 +4,14 @@ block config
     -
         var title = '!Welcome to Quick Blog'
         var description = '"p Using super Quick Blog is easy and you can get 100/100 score on Google pagespeed insights"' 
-    block content        
-    h1=title
-    p=description
+    block content  
+    .welcome      
+        h1=title
+        p=description
+        a(href="#continue") click to continue reading or scroll down
+    #continue
+    p.lead Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculos mus.
+    p
+        small Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculos mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non comodo luctus, nisi erat portittor ligula, eget lacinia odio sem nec elit. 
+   
+    
