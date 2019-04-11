@@ -45,17 +45,25 @@ html {
     margin: 1rem;
     border: 0.1rem solid $color-white;
     position: relative;
-    background-color: $color-buttercup1;
-    padding-right: 1.5rem;
+    background-color: $color-dark;
+    padding-right: 1.3rem;
+    display: flex;
+    justify-content: center;
 
-    &:hover {
-      border: 0.1rem solid $color-buttercup;
+    align-items: &:hover {
+      border: 0.1rem solid $color-normal;
     }
+
+
+  }
+
+  .continue-arrow {
+    margin: 0 0.2rem;
 
     &:after {
       position: absolute;
-      right: 0.5rem;
-      top: 1.2rem;
+      // right: 0.5rem;
+      // top: 1.2rem;
       content: '';
       display: block;
       width: 0px;
@@ -64,6 +72,7 @@ html {
       border-left: 0.5rem solid transparent;
       border-right: 0.5rem solid transparent;
     }
+
   }
 
   //   &>* {
