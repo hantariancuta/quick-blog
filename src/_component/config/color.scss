@@ -1,4 +1,4 @@
-$theme: 'pickled-bluewood';
+$theme: 'buttercup';
 
 $color-normal: #f1f1f1;
 $color-dark: #000;
@@ -9,8 +9,8 @@ $color-dark: #000;
 }
 
 @if ($theme=='buttercup') {
-  $color-normal: #F1C40F;
-  $color-dark: #F39C12;
+  $color-normal: #f1c40f;
+  $color-dark: #f39c12;
 }
 
 @if ($theme=='zest') {
@@ -18,5 +18,6 @@ $color-dark: #000;
   $color-dark: #D35400;
 }
 
+$color-athens-gray: #e7e9ec;
 $color-golden-grass: #dd9a2d;
 $color-white: #fff;
