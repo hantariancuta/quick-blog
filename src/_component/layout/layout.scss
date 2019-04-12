@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans";
 }
 
+html {
+  font-size: 10px;
+}
+
 @media screen and (min-width: 25em) {
   html {
     font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
@@ -13,7 +17,7 @@ body {
 }
 
 html {
-  font-size: 6vw;
+  font-size: 3vw;
 }
 
 .welcome {
